@@ -51,6 +51,7 @@ def Gauss_J(A:list,b:list) -> list:
     
 
 #ガウス・ジョルダン法で解く。
-Gauss_J(A,b)
+if __name__ == "__main__":
+    Gauss_J(A,b)
     
 
