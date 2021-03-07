@@ -1,8 +1,4 @@
-
 # coding: utf-8
-
-# In[1]:
-
 
 #nからn^2までの間を長さnの区間で分割したときに、各区間に素数が存在することを確認するためのコード
 import math
@@ -37,8 +33,7 @@ while a <= n:
                 if j < i2:
                    break
                 g[j] -= g[j // i] -p            
-                
-                
+                               
     print(g[n*(a+1)]-h[n*a])
     a += 1
 
