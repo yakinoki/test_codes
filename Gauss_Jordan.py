@@ -1,17 +1,5 @@
 # coding: utf-8
 
-import numpy as np
-import numpy.linalg
-
-#係数行列を定義。例えば3と書くときは3ではなく3.と書くこと。
-A = np.array([[4.,2.,1.],[2.,-1.,2.],[1.,4.,1.]])
-
-#定数項ベクトルを定義。
-b = np.array([[10.],[5.],[12.]])
-
-#linalgを使うと１行で済む。（確認用）
-#print(np.linalg.solve(A,b))
-
 #ガウス・ジョルダン法を定義。
 def Gauss_J(A:list,b:list) -> list:
     
@@ -50,8 +38,6 @@ def Gauss_J(A:list,b:list) -> list:
     print("x3 = {}".format(b[2]))
     
 
-#ガウス・ジョルダン法で解く。
-if __name__ == "__main__":
-    Gauss_J(A,b)
+
     
 
