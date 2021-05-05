@@ -4,6 +4,7 @@ import numpy.linalg
 from Gauss_Jordan import Gauss_J 
 
 
+
 #係数行列を定義。例えば3と書くときは3ではなく3.と書くこと。
 A = np.array([[4.,2.,1.],[2.,-1.,2.],[1.,4.,1.]])
 
@@ -16,3 +17,4 @@ if __name__ == "__main__":
 
 #linalgを使うと１行で済む。（確認用）
 #print(np.linalg.solve(A,b))
+
