@@ -1,7 +1,8 @@
 # coding: utf-8
 import numpy as np
 import numpy.linalg
-from Gauss_Jordan import Gauss_J 
+from src import Gauss_Jordan 
+
 
 
 #係数行列を定義。例えば3と書くときは3ではなく3.と書くこと。
@@ -12,7 +13,8 @@ b = np.array([[10.],[5.],[12.]])
 
 
 if __name__ == "__main__":
-    Gauss_J(A,b)
+    Gauss_Jordan.Gauss_J(A,b)
 
 #linalgを使うと１行で済む。（確認用）
 #print(np.linalg.solve(A,b))
+
