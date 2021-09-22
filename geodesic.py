@@ -1,5 +1,7 @@
 # coding: utf-8
 
+#%%
+
 #原点中心、半径rの球面上の2点の座標が与えられた時、その間の最短測地線の長さを求める。
 #ここでは共に北半球、東側の点とする。また北極点は除く。
 
@@ -52,4 +54,6 @@ z2 = r * math.sin(phi2)
 d = r * math.acos(math.sin(theta1)*math.sin(theta2) + math.cos(theta1)*math.cos(theta2)*math.cos(phi1-phi2))
 
 print("二点間の球面上の距離は{}".format(d))
+
+#%%
 
