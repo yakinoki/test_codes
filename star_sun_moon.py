@@ -7,7 +7,7 @@ print(marks)
 print('moonは' + str(marks.index('moon')) + '番目')
 print(marks[-2])
 
-def main():
+def main() -> None:
     #等確率でひとつ選ぶ。
     mark = random.choice(marks)
     print(mark)
