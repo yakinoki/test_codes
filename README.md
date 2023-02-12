@@ -1,5 +1,7 @@
 # Contents of each file
 
+![ソースコードサイズ](https://img.shields.io/github/languages/code-size/yakinoki/test_codes)
+
 ## calculation.py
 
 srcフォルダ内のGauss_Jordan.pyからGauss_Jordan 関数を呼び出して連立方程式を解く。
