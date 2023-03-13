@@ -20,7 +20,7 @@ cursorの練習。
 
 ## square_numbers.py
 
-連続した5つの整数の積が平方数になることがあるか実験するためのコード。
+Code for experimenting to see if the product of five consecutive integers can be a square number.
 
 ## star_sun_moon.py
 
