@@ -4,19 +4,19 @@
 
 ## calculation.py
 
-srcフォルダ内のGauss_Jordan.pyからGauss_Jordan 関数を呼び出して連立方程式を解く。
+Call the Gauss_Jordan function from Gauss_Jordan.py in the src folder to solve the simultaneous equations.
 
 ## geodesic.py
 
-原点中心、半径rの球面上の2点の座標が与えられた時、その間の最短測地線の長さを求める。
+Given the coordinates of two points on a sphere of origin center and radius r, find the length of the shortest geodesic between them.
 
 ## prime_numbers.py
 
-nからn^2までの間を長さnの区間で分割したときに、各区間に素数が存在することを確認するためのコード。
+A code to check that when the interval from n to n^2 is divided by an interval of length n, there is a prime number in each interval.
 
 ## sql_lite.py
 
-cursorの練習。
+CURSOR Practice.
 
 ## square_numbers.py
 
@@ -24,4 +24,4 @@ Code for experimenting to see if the product of five consecutive integers can be
 
 ## star_sun_moon.py
 
-ジャンケンゲーム作成のための練習。
+Practice for creating rock-paper-scissors games.
