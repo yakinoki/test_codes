@@ -31,5 +31,6 @@ kl_divergence_qp = kl_divergence(q, p)
 # 結果を出力
 print("Entropy of p:", entropy_p)
 print("Entropy of q:", entropy_q)
+# カルバック・ライブラー情報量には対称性がない。
 print("KL Divergence from p to q:", kl_divergence_pq)
 print("KL Divergence from q to p:", kl_divergence_qp)
