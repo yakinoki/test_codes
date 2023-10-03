@@ -2,26 +2,35 @@
 
 ![ソースコードサイズ](https://img.shields.io/github/languages/code-size/yakinoki/test_codes)
 
-## calculation.py
+## math/calculation.py
 
 Call the Gauss_Jordan function from Gauss_Jordan.py in the src folder to solve the simultaneous equations.
 
-## geodesic.py
+## math/geodesic.py
 
 Given the coordinates of two points on a sphere of origin center and radius r, find the length of the shortest geodesic between them.
 
-## prime_numbers.py
+## math/prime_numbers.py
 
 A code to check that when the interval from n to n^2 is divided by an interval of length n, there is a prime number in each interval.
 
-## sql_lite.py
+This code was used for verification purposes when writing the following article.
 
-CURSOR Practice.
+https://www.chart.co.jp/subject/sugaku/suken_tsushin/91/91-5.pdf
 
-## square_numbers.py
+## math/square_numbers.py
 
 Code for experimenting to see if the product of five consecutive integers can be a square number.
 
-## star_sun_moon.py
+This code was used for verification purposes when writing the following article.
+
+https://www.chart.co.jp/subject/sugaku/suken_tsushin/94/94-11.pdf
+
+
+## others/sql_lite.py
+
+CURSOR Practice.
+
+## others/star_sun_moon.py
 
 Practice for creating rock-paper-scissors games.
