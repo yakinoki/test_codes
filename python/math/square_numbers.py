@@ -1,8 +1,4 @@
 
-# coding: utf-8
-
-# In[1]:
-
 
 #連続した5つの整数の積が平方数になるかチェックするためのコード
 import numpy as np
@@ -19,7 +15,6 @@ while n < 3000:
         print(error)
 
 
-# In[2]:
 
 """
 import numpy as np
