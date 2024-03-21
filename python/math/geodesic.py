@@ -6,6 +6,9 @@
 #ここでは共に北半球、東側の点とする。また北極点は除く。
 
 import math
+import matplotlib.pyplot as plt
+import numpy as np
+
 
 #まず半径を決める。
 r=float(input())
@@ -54,6 +57,34 @@ z2 = r * math.sin(phi2)
 d = r * math.acos(math.sin(theta1)*math.sin(theta2) + math.cos(theta1)*math.cos(theta2)*math.cos(phi1-phi2))
 
 print("二点間の球面上の距離は{}".format(d))
+
+# 2つの点を配列に格納
+points = [(x1, y1, z1), (x2, y2, z2)]
+
+# 可視化のための関数
+def plot_geodesic(points, r):
+    fig = plt.figure()
+    ax = fig.add_subplot(111, projection='3d')
+    
+    # 球面をプロット
+    u = np.linspace(0, 2 * np.pi, 100)
+    v = np.linspace(0, np.pi, 100)
+    x = r * np.outer(np.cos(u), np.sin(v))
+    y = r * np.outer(np.sin(u), np.sin(v))
+    z = r * np.outer(np.ones(np.size(u)), np.cos(v))
+    ax.plot_surface(x, y, z, color='b', alpha=0.1)
+    
+    # 2点をプロット
+    x, y, z = zip(*points)
+    ax.scatter(x, y, z, c='r', marker='o', s=100)
+    
+    ax.set_xlabel('X')
+    ax.set_ylabel('Y')
+    ax.set_zlabel('Z')
+    plt.show()
+
+# 可視化関数を呼び出し
+plot_geodesic(points, r)
 
 #%%
 
