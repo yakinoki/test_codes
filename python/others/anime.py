@@ -21,3 +21,6 @@ def update(frame):
 ani = FuncAnimation(fig, update, frames=np.linspace(0, 2*np.pi, 128),
                     init_func=init, blit=True)
 plt.show()
+
+# GIFファイルとして保存
+ani.save('animation.gif', writer='imagemagick', fps=30)
