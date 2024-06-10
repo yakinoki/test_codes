@@ -18,6 +18,10 @@ This code was used for verification purposes when writing the following article.
 
 https://www.chart.co.jp/subject/sugaku/suken_tsushin/91/91-5.pdf
 
+This conjecture was later proven.
+
+https://mathlog.info/articles/5qPoXSlvkzpEFBrg1nbb
+
 ## math/square_numbers.py
 
 Code for experimenting to see if the product of five consecutive integers can be a square number.
