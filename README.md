@@ -2,7 +2,7 @@
 
 ![ソースコードサイズ](https://img.shields.io/github/languages/code-size/yakinoki/test_codes)
 
-## math/calculation.py
+## [math/calculation.py](https://github.com/yakinoki/test_codes/blob/develop/python/math/calculation.py)
 
 Call the Gauss_Jordan function from Gauss_Jordan.py in the src folder to solve the simultaneous equations.
 
